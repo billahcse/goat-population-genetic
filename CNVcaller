@@ -1,0 +1,4 @@
+Step 1: Indexing Reference Genome
+perl CNVReferenceDB.pl ARS.fna -w 1000
+Step 2: Individual RD processing
+bash Individual.Process.sh -b ~/mbillah/10Sample/BBGCVASU/BBG1.bam -h BBG1 -d ASM_1000_link -s X
